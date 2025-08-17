@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thông tin Business</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fff8f1;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 30px auto;
+            background: #ffffff;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(255, 167, 38, 0.25);
+            border: 2px solid #ffa726;
+        }
+
+        .header {
+            background-color: #ffa726;
+            text-align: center;
+            padding: 35px 20px 20px;
+        }
+
+            .header img {
+                width: 110px;
+            }
+
+            .header h1 {
+                margin-top: 15px;
+                font-size: 32px;
+                color: white;
+                font-weight: 800;
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+            }
+
+        .content {
+            padding: 30px 25px;
+            background-color: #fff3e0;
+        }
+
+            .content h2 {
+                text-align: center;
+                font-size: 26px;
+                color: #ff5722;
+                margin-bottom: 25px;
+            }
+
+        .info {
+            background-color: #ffe0b2;
+            padding: 20px;
+            border-radius: 12px;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+            .info p {
+                margin: 12px 0;
+            }
+
+        .highlight {
+            color: #e65100;
+            font-weight: 600;
+        }
+
+        .icon {
+            margin-right: 8px;
+        }
+
+        .footer {
+            background-color: #fff3e0;
+            text-align: center;
+            padding: 20px;
+            font-size: 13px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://jufzhzxezjmsjsoroude.supabase.co/storage/v1/object/public/hangout//logo.png" alt="HangOut Logo">
+            <h1>HangOut</h1>
+        </div>
+
+        <div class="content">
+            <h2>Đơn Mới Từ Khách Hàng: {Name} ✨</h2>
+            <div class="info">
+                <p><span class="icon">👤</span><span class="highlight">Khách hàng:</span> {Name}</p>
+                <p><span class="icon">📅</span><span class="highlight">Đặt ngày:</span> {Date}</p>
+                <p><span class="icon">📞</span><span class="highlight">Số điện thoại:</span> {Phone}</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            Cảm ơn bạn đã đồng hành cùng HangOut 💛<br />
+            Mọi thắc mắc xin liên hệ: support@hangout.vn
+        </div>
+    </div>
+</body>
+</html>

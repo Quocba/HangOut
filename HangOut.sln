@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangOut.API", "HangOut.API\HangOut.API.csproj", "{7A958449-D4C9-45CA-8436-06498DD9D36D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangOut.Repository", "HangOut.Repository\HangOut.Repository.csproj", "{E1C4E0A6-ED38-4BFE-B847-05D6055803A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangOut.Domain", "HangOut.Domain\HangOut.Domain.csproj", "{0C456FD0-C300-443F-BE73-2C0829DC7649}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A958449-D4C9-45CA-8436-06498DD9D36D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A958449-D4C9-45CA-8436-06498DD9D36D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A958449-D4C9-45CA-8436-06498DD9D36D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A958449-D4C9-45CA-8436-06498DD9D36D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1C4E0A6-ED38-4BFE-B847-05D6055803A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C4E0A6-ED38-4BFE-B847-05D6055803A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1C4E0A6-ED38-4BFE-B847-05D6055803A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C4E0A6-ED38-4BFE-B847-05D6055803A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C456FD0-C300-443F-BE73-2C0829DC7649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C456FD0-C300-443F-BE73-2C0829DC7649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C456FD0-C300-443F-BE73-2C0829DC7649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C456FD0-C300-443F-BE73-2C0829DC7649}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

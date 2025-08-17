@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thông tin Ưu đãi</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fff8f1;
+            color: #333;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(255, 165, 0, 0.2);
+            border: 2px solid #ffa726;
+        }
+
+        .header {
+            background-color: #ffa726;
+            text-align: center;
+            padding: 30px 20px 20px 20px;
+        }
+
+            .header img {
+                width: 100px;
+            }
+
+            .header h1 {
+                margin: 10px 0 0 0;
+                font-size: 30px;
+                color: white;
+                font-weight: bold;
+                text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+            }
+
+        .content {
+            padding: 25px;
+            background-color: #fff3e0; /* màu nền cam nhẹ */
+        }
+
+            .content h2 {
+                color: #ff5722;
+                margin-top: 0;
+                font-size: 24px;
+                text-align: center;
+            }
+
+        .info {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ffe0b2;
+            border-radius: 10px;
+        }
+
+            .info p {
+                margin: 10px 0;
+                font-size: 16px;
+            }
+
+        .highlight {
+            color: #e65100;
+            font-weight: bold;
+        }
+
+        .icon {
+            margin-right: 5px;
+        }
+
+        .footer {
+            background-color: #fff3e0;
+            text-align: center;
+            padding: 15px;
+            font-size: 13px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://jufzhzxezjmsjsoroude.supabase.co/storage/v1/object/public/hangout//logo.png" alt="HangOut Logo">
+            <h1>HangOut</h1>
+        </div>
+
+        <div class="content">
+            <h2>{BusinessName} 💛</h2>
+            <div class="info">
+                <p><span class="icon">📅</span><span class="highlight">Ngày:</span> {Date}</p>
+                <p><span class="icon">📍</span><span class="highlight">Địa chỉ:</span> {Address}</p>
+                <p><span class="icon">⏰</span><span class="highlight">Giờ mở cửa:</span> {OpeningHours}</p>
+                <p><span class="icon">📅</span><span class="highlight">Từ:</span> {StartDay}</p>
+                <p><span class="icon">📅</span><span class="highlight">Đến:</span> {EndDay}</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            Cảm ơn bạn đã đồng hành cùng HangOut! 💛
+        </div>
+    </div>
+</body>
+</html>
